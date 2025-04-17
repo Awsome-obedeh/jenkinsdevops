@@ -4,12 +4,12 @@ pipeline {
     }
 
     stages {
-        stage('Clone Code') {
-            steps {
-                git '' 
-                // add repo
-            }
-        }
+        // stage('Clone Code') {
+        //     steps {
+        //         git '' 
+        //         // add repo
+        //     }
+        // }
 
         stage('Install Dependencies') {
             steps {
